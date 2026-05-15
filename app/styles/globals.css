@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tipografia padrão */
+body {
+  @apply font-body bg-blackPremium text-offWhite;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo links */
+a {
+  @apply text-offWhite hover:text-goldChampagne transition-colors;
+}
