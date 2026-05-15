@@ -2,21 +2,20 @@
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        blackPremium: "#0B0B0C",
-        offWhite: "#F5F1EB",
-        goldChampagne: "#C6A972",
-        grafiteProfundo: "#1A1A1A",
+        blackPremium: "#0B0B0B",
+        offWhite: "#F5F5F5",
+        goldChampagne: "#ECD9B0",
       },
       fontFamily: {
-        heading: ["Cormorant Garamond", "serif"],
         body: ["Inter", "sans-serif"],
-      }
+      },
     },
   },
   plugins: [],
-}
+};

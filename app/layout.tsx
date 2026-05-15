@@ -1,17 +1,15 @@
-import './styles/globals.css'
-import { ReactNode } from 'react'
+import './styles/globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'LANSARINI Piercing & Beauty Studio',
-  description: 'Estética autoral, precisão e identidade.',
-}
+  title: 'Lansarini Website',
+  description: 'Website built with Next.js and Tailwind CSS',
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
