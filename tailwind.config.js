@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -10,10 +9,13 @@ module.exports = {
       colors: {
         blackPremium: "#0B0B0B",
         offWhite: "#F5F5F5",
-        goldChampagne: "#ECD9B0",
+        goldChampagne: "#C7A86B", // mais próximo do post
       },
       fontFamily: {
         body: ["Inter", "sans-serif"],
+        heading: ["Playfair Display", "serif"],
+        script: ["Great Vibes", "cursive"], // para textos cursivos
+        button: ["Montserrat", "sans-serif"],
       },
     },
   },
